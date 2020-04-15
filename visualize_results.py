@@ -32,8 +32,8 @@ def plot_annotated_image(img, rl_locations, save_filepath):
 
 
 
-results_filepath = '../CS148/hw01_preds/'
-save_filepath = '../CS148/hw01_preds_imgs/'
+results_filepath = ''
+save_filepath = 'hw01_preds_imgs/'
 results_file = 'preds1.json'
 
 with open(results_filepath + results_file) as f:
